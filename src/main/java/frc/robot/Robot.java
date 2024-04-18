@@ -221,8 +221,8 @@ public class Robot extends TimedRobot {
     // new JoystickButton(leftJoystick, 5).whenHeld(new ExtendIntake());
     // new JoystickButton(leftJoystick, 6).whenHeld(new RetractIntake());
 
-    new JoystickButton(rightJoystick, 3).whileHeld(new DriveHold(.5));
-    new JoystickButton(rightJoystick, 5).whileHeld(new DriveHold(1));
+    new JoystickButton(rightJoystick, 5).whileHeld(new DriveHold(.5));
+    new JoystickButton(rightJoystick,3).whileHeld(new DriveHold(1));
     new JoystickButton(rightJoystick, 6).whileHeld(new DriveHold(-1));
     new JoystickButton(rightJoystick, 4).whileHeld(new DriveHold(-.5));
 
